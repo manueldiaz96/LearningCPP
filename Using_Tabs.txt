@@ -1,0 +1,18 @@
+	int numberOfCats=5;
+
+
+	string message = "This (\") is a literal quote, and this (\\) is a backslash ";
+
+	cout << message << endl; // prints !!!Hello World!!!
+
+	cout << "Let\'s count tabs" << endl;
+	cout << "Zero tabs" << endl;
+	cout << "\t One tab" << endl;
+	cout << "\t \t Two tabs" << endl;
+	cout << "\t\t Two Joint tabs" << endl;
+	cout << "\t\t\t Three tabs" << endl;
+
+	string input;
+//	cin >> input;
+
+//	cout << "You entered: " << input << endl;

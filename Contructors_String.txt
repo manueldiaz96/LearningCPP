@@ -1,0 +1,22 @@
+
+	cout << "Give me your name: " << endl;
+
+	string name;
+	cin >> name;
+
+	string greeting = "Hello, "+ name+"!";
+
+
+	const string spaces(greeting.size(), ' '); //Strings can be formed with constructors
+	const string second = "* "+spaces+" *";
+	const string first(second.size(), '*'); //Strings can be formed with constructors
+
+	cout << endl;
+	cout << first << endl;
+	cout << second << endl;
+	cout << "* "+greeting+" *" << endl;
+	cout << second << endl;
+	cout << first << endl;
+
+
+	return 0;

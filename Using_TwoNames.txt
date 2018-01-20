@@ -1,0 +1,11 @@
+
+	cout << "Names: " << endl;
+	string f_name, s_name, name;
+
+	cin >> f_name >> s_name;
+	name = f_name + " " + s_name;
+
+	cout << name << endl;
+
+
+	return 0;

@@ -2,6 +2,7 @@ cout << "Please enter your first name: ";
 
 	string cool_name;
 	cin >> cool_name;
+	int numero;
 
 	const string greeting = "Hello, " + cool_name + "!";
 

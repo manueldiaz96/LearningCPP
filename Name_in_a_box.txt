@@ -1,9 +1,9 @@
 cout << "Please enter your first name: ";
 
-	string name;
-	cin >> name;
+	string cool_name;
+	cin >> cool_name;
 
-	const string greeting = "Hello, " + name + "!";
+	const string greeting = "Hello, " + cool_name + "!";
 
 	const int pad = 1;
 
